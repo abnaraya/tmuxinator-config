@@ -1,0 +1,10 @@
+name: codex-agents
+root: /Users/abnaraya/dev
+
+windows:
+  - main:
+      layout: main-vertical
+      panes:
+        - cd ~/dev && codex
+        - cd ~/dev && codex
+        - cd ~/dev
