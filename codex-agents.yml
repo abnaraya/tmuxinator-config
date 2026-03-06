@@ -4,6 +4,8 @@ root: /Users/abnaraya/dev
 windows:
   - main:
       layout: main-vertical
+      options:
+        main-pane-width: 50%
       panes:
         - cd ~/dev && codex
         - cd ~/dev && codex

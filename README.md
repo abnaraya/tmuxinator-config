@@ -13,7 +13,7 @@ Tmuxinator config for a 3-pane Codex workspace in `~/dev`.
 ## Prerequisites
 
 - `tmux`
-- `ruby` + `gem` (for tmuxinator)
+- `tmuxinator`
 - `codex` CLI available on your `PATH`
 
 ## Install
@@ -21,8 +21,7 @@ Tmuxinator config for a 3-pane Codex workspace in `~/dev`.
 ### macOS (Homebrew)
 
 ```bash
-brew install tmux ruby
-gem install tmuxinator
+brew install tmux tmuxinator
 ```
 
 ### Ubuntu/Debian
