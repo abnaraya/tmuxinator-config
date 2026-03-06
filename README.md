@@ -39,13 +39,15 @@ From this repo directory:
 ```bash
 mkdir -p ~/.config/tmuxinator
 ln -sf "$PWD/codex-agents.yml" ~/.config/tmuxinator/codex-agents.yml
-tmuxinator start codex-agents
+./start-codex-agents.sh
 ```
+
+`start-codex-agents.sh` starts tmuxinator and reapplies the `main-vertical` layout so pane sizing is corrected for your current terminal size.
 
 ## Common commands
 
 ```bash
-tmuxinator start codex-agents
+./start-codex-agents.sh
 tmuxinator stop codex-agents
 tmuxinator edit codex-agents
 ```
