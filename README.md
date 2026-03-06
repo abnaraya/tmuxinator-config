@@ -42,12 +42,13 @@ ln -sf "$PWD/codex-agents.yml" ~/.config/tmuxinator/codex-agents.yml
 ./start-codex-agents.sh
 ```
 
-`start-codex-agents.sh` starts tmuxinator and reapplies the `main-vertical` layout so pane sizing is corrected for your current terminal size.
+`start-codex-agents.sh` starts tmuxinator in detached mode, enforces a 50% main pane width, reapplies `main-vertical`, then attaches so pane sizing matches your current terminal size.
 
 ## Common commands
 
 ```bash
 ./start-codex-agents.sh
+./stop-codex-agents.sh
 tmuxinator stop codex-agents
 tmuxinator edit codex-agents
 ```
